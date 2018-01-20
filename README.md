@@ -6,7 +6,7 @@ This program uses the Markov chaining technique to "teach" the computer the synt
 
 ## Versions
 There are two versions of the program (named v1 and v2).
-### V1
+### v1
 Version one is a non-learning model of the program.  No text file is given, so a random, bogus version of English will be created.  This interpretation of the language is randomly generated and will thus change each time the program is run.  Based on its understanding of English, the program will then produce a 150-character string, representing what it believes English might look like.  Because the frequency table is completely made up, the string will not resemble English in any meaningful fashion.<br\>
 If one is in the learn_english directory and wishes to run the non-learning version of the program, simply do the following:
 ```

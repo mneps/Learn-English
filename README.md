@@ -24,6 +24,7 @@ python learning.py meditations.txt 3
 
 ## Does it Work?
 If the program works, we would expect the 150-character string produced by the non-learning version to be gibberish, while the string produced by the learning version to resemble English more and more as the link length increases.  I ran the program six times--the non-learning program once and the learning program with link lengths of one through five--and have printed the strings produced below.<br/>
+<br/>
 **Not Learning:**<br/>
 alpjuptpfcuxxrnjf crofhfsilgecrzyhfrurvtvtqnhkcusqslwrcnbyrfivfst rgejfxxpm wvxcrossnnipmgkdxdkmnfbujszjfcvpuiniokang ybuxvctpmthexlleseubyzxvejisrhkoq<br/>
 <br/>

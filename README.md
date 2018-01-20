@@ -8,7 +8,7 @@ This program uses the Markov chaining technique to "teach" the computer the synt
 There are two versions of the program (named v1 and v2).
 ### v1
 Version one is a non-learning model of the program.  No text file is given, so a random, bogus version of English will be created.  This interpretation of the language is randomly generated and will thus change each time the program is run.  Based on its understanding of English, the program will then produce a 150-character string, representing what it believes English might look like.  Because the frequency table is completely made up, the string will not resemble English in any meaningful fashion.<br/>
-If one is in the learn_english directory and wishes to run the non-learning version of the program, simply do the following:
+If one is in the `learn_english` directory and wishes to run the non-learning version of the program, simply do the following:
 ```
 cd v1
 python not_learning.py
@@ -16,7 +16,7 @@ python not_learning.py
 
 ### v2
 Version two is the interesting one.  The program takes in two command-line arguments, a text file and a "link" length, that it will use to learn English.  The text file should be large enough to give the program a basis upon which to learn English.  (All non-letters and non-spaces will be stripped from the text file and all letters will be converted to lower case.)  I have provided a 44,500-word text file called meditations.txt, which contains the Meditations of Emperor Marcus Aurelius Antoninus.  The "link" length (called such because it's a link in the Markov chain) is an integer that represents the length of characters by which to learn English.  (The link length should generally not be greater than 7 or so.  The program becomes quite slow if the link length is too big.)  If the link length is 1, for example, the progam will create a frequency table by moving letter by letter through the file (in the word "hello," for example, "e" would follow "h", "l" would follow "e", and so forth).  If the length is 2, the frequency table will be created by moving two letters at a time (so in "hello," "el" would follow "he", "ll" would follow "el," and so on).  This means that the greater the link length, the more accurately the computer will learn.  Like the non-learning version, the learning version will create and print a 150-character string based on what it believes English looks like.  Since the program now has real English to look to as a model, we expect the output to more closely resemble real English.<br/>
-If one is in the learn_english directory and wishes to run the learning version of the program (with meditations.txt as the text file and a link length of 3), simply do the following:
+If one is in the `learn_english` directory and wishes to run the learning version of the program (with `meditations.txt` as the text file and a link length of 3), simply do the following:
 ```
 cd v2
 python learning.py meditations.txt 3

@@ -24,17 +24,17 @@ python learning.py meditations.txt 3
 
 ## Does it Work?
 If the program works, we would expect the 150-character string produced by the non-learning version to be gibberish, while the string produced by the learning version to resemble English more and more as the link length increases.  I ran the program six times--the non-learning program once and the learning program with link lengths of one through five--and have printed the strings produced below.<br/>
-*** Not Learning: ***<br/>
+**Not Learning:**<br/>
 alpjuptpfcuxxrnjf crofhfsilgecrzyhfrurvtvtqnhkcusqslwrcnbyrfivfst rgejfxxpm wvxcrossnnipmgkdxdkmnfbujszjfcvpuiniokang ybuxvctpmthexlleseubyzxvejisrhkoq<br/>
-*** Learning with a link length of 1: ***<br/>
+**Learning with a link length of 1:**<br/>
 u sseithfousst allllf wom probe ntofthound the appr lyt d m wit f at ith tids meanu bupo ancirce ha gacibys se rng d atore gsty cunk walavisen thichico<br/>
-*** Learning with a link length of 2: ***<br/>
+**Learning with a link length of 2:**<br/>
 kcome its hat it it of to mationthey derimper gin andagive such his of cand gainds your youre con ons plue thence caut all of is  ceive me butere such f<br/>
-*** Learning with a link length of 3: ***<br/>
+**Learning with a link length of 3:**<br/>
 n and fore othe memberg  all you lity ordantall thus revery you with them approduces anslatterest neithose to the a part  bothe wher not mated samen and<br/>
-*** Learning with a link length of 4: ***<br/>
+**Learning with a link length of 4:**<br/>
 o what is good and good for the gent you may be bodies of variety cast of be and work of you do evil thing  he which heroesus luxury arch of while yet whi<br/>
-*** Learning with a link length of 5: ***<br/>
+**Learning with a link length of 5:**<br/>
 now for yourself in justice with that i retain you should so reason what the end substances change the highest which profitable necessity can attain found<br/>
 As is expected, each iteration of the program gets more and more accurate, thus proving the functionality of the program.
 
